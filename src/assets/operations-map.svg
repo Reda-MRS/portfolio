@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" aria-hidden="true" focusable="false">
+  <rect x="0" y="0" width="1200" height="360" fill="#122340"/>
+  <path d="M 60 0 V 360 M 120 0 V 360 M 180 0 V 360 M 240 0 V 360 M 300 0 V 360 M 360 0 V 360 M 420 0 V 360 M 480 0 V 360 M 540 0 V 360 M 600 0 V 360 M 660 0 V 360 M 720 0 V 360 M 780 0 V 360 M 840 0 V 360 M 900 0 V 360 M 960 0 V 360 M 1020 0 V 360 M 1080 0 V 360 M 1140 0 V 360 M 0 60 H 1200 M 0 120 H 1200 M 0 180 H 1200 M 0 240 H 1200 M 0 300 H 1200" stroke="#294363" stroke-width="1" opacity="0.45" fill="none"/>
+  <rect x="48" y="76" width="304" height="232" rx="16" fill="none" stroke="#294363" stroke-width="1.5" stroke-dasharray="7 7" opacity="0.9"/>
+  <rect x="476" y="64" width="296" height="256" rx="16" fill="none" stroke="#294363" stroke-width="1.5" stroke-dasharray="7 7" opacity="0.9"/>
+  <rect x="848" y="76" width="304" height="232" rx="16" fill="none" stroke="#294363" stroke-width="1.5" stroke-dasharray="7 7" opacity="0.9"/>
+  <g fill="none" stroke="#294363" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M 60 120 H 90 V 150 L 60 180"/>
+    <path d="M 240 272 V 180 H 360 L 420 120"/>
+    <path d="M 120 240 V 180"/>
+    <path d="M 60 96 H 156"/>
+    <path d="M 80 280 L 120 240 H 180"/>
+    <path d="M 500 64 V 120"/>
+    <path d="M 624 64 V 180"/>
+    <path d="M 504 260 L 524 240 H 624"/>
+    <path d="M 624 320 V 240"/>
+    <path d="M 748 180 H 868"/>
+    <path d="M 900 120 V 240"/>
+    <path d="M 960 120 H 1020 V 180"/>
+    <path d="M 1100 308 V 220 H 1140"/>
+  </g>
+  <path d="M 120 180 L 180 120 L 240 120 L 564 120 L 624 180 L 624 240 L 900 240 L 960 180 L 1020 180 L 1060 220 L 1100 220" fill="none" stroke="#6FCBFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#122340" stroke="#ECF4FF" stroke-width="2.5">
+    <circle cx="120" cy="180" r="10"/>
+    <circle cx="240" cy="120" r="10"/>
+    <circle cx="564" cy="120" r="10"/>
+    <circle cx="624" cy="240" r="10"/>
+    <circle cx="960" cy="180" r="10"/>
+    <circle cx="1100" cy="220" r="10"/>
+  </g>
+  <g fill="#6FCBFF">
+    <circle cx="120" cy="180" r="3.5"/>
+    <circle cx="240" cy="120" r="3.5"/>
+    <circle cx="564" cy="120" r="3.5"/>
+    <circle cx="624" cy="240" r="3.5"/>
+    <circle cx="960" cy="180" r="3.5"/>
+    <circle cx="1100" cy="220" r="3.5"/>
+  </g>
+</svg>
+
