@@ -17,7 +17,7 @@ export default {
     eyebrow: "Supply chain · Expertise métier · Digital",
     titleStart: "Vos défis supply chain.",
     titleAccent: "Mes solutions digitales.",
-    description: "Master en E-Logistique / Transport, j’allie expertise terrain et développement logiciel pour transformer les contraintes de la supply chain en solutions digitales qui simplifient les opérations et réduisent les tâches manuelles.",
+    description: "Master en E-Logistique / Transport, j’allie expertise terrain et développement logiciel pour transformer les contraintes de la supply chain en solutions digitales qui simplifient les opérations.",
     proofsLabel: "Résultats mesurés sur les projets présentés",
     proofs: [
       { value: "−2 000 km", context: "Sur un test d’optimisation des tournées de carburant", project: "WIN-TMS" },

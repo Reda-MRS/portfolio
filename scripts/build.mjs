@@ -3,7 +3,8 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import fr from '../content/fr.mjs';
 import en from '../content/en.mjs';
-import { renderHome, renderProject, render404 } from './render.mjs';
+import { renderProject, render404 } from './render.mjs';
+import { renderHome } from './home.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
@@ -32,6 +33,6 @@ await writeFile(path.join(dist,'404.html'), render404(fr));
 await writeFile(path.join(dist,'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
 await writeFile(path.join(dist,'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${paths.map(p => `<url><loc>${origin}${p}</loc></url>`).join('')}</urlset>`);
 await mkdir(path.join(dist,'assets'), { recursive:true });
-for (const [from,to] of [['src/styles/tokens.css','tokens.css'],['src/styles/site.css','site.css'],['src/scripts/main.js','main.js']]) await cp(path.join(root,from),path.join(dist,'assets',to));
+for (const [from,to] of [['src/styles/tokens.css','tokens.css'],['src/styles/site.css','site.css'],['src/styles/home.css','home.css'],['src/scripts/main.js','main.js']]) await cp(path.join(root,from),path.join(dist,'assets',to));
 for (const file of ['favicon.svg','operations-map.svg','document-flow.svg','zine-tms.png','win-tms.png','gamma-transit.png','fuel-tracking.png','cv-mohammed-reda-saadi.pdf']) await cp(path.join(root,'src/assets',file),path.join(dist,'assets',file));
 console.log(`Built ${paths.length} pages in dist/`);

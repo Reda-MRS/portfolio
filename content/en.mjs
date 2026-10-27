@@ -17,7 +17,7 @@ export default {
     eyebrow: "Supply chain · Domain expertise · Digital",
     titleStart: "Your supply chain challenges.",
     titleAccent: "My digital solutions.",
-    description: "As a Master's student in E-Logistics / Transport, I combine hands-on expertise with software development to turn supply chain constraints into digital solutions that streamline operations and reduce manual tasks.",
+    description: "As a Master's student in E-Logistics / Transport, I combine hands-on expertise with software development to turn supply chain constraints into digital solutions that streamline operations.",
     proofsLabel: "Measured results from featured projects",
     proofs: [
       { value: "−2,000 km", context: "From one fuel route optimization test", project: "WIN-TMS" },
