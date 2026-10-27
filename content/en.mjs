@@ -78,6 +78,14 @@ export default {
       status: "planned"
     },
     {
+      id: "win-tms-development",
+      organization: "WINXO",
+      role: "WIN-TMS design and development",
+      period: "June – August 2026",
+      description: "Designed and developed a TMS in Python and React for fuel route planning, assignments, and truck capacity management.",
+      status: "completed"
+    },
+    {
       id: "zine-capital-invest",
       organization: "Zine Capital Invest",
       role: "Excel/VBA TMS prototype",
@@ -88,7 +96,7 @@ export default {
     {
       id: "wafa-ima",
       organization: "Wafa IMA",
-      role: "Assistance (part-time)",
+      role: "Assistance officer",
       period: "2024–2025",
       description: "Handled emergency calls and coordinated service providers in Morocco and internationally, part time.",
       status: "completed"
